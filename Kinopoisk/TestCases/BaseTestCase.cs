@@ -27,7 +27,7 @@ namespace Kinopoisk.TestCases
         [OneTimeTearDown]
         public void AfterAllTests()
         {
-            BrowserFactory.CloseAllDrivers();
+            //BrowserFactory.CloseAllDrivers();
         }
     }
 }
