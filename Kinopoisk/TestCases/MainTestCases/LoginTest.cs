@@ -32,8 +32,7 @@ namespace Kinopoisk.TestCases.MainTestCases
         [TearDown]
         public void AfterTest()
         {
-            user.AtPage<KinopoiskStartPage>().WaitNClickLogoutButton();
-            BrowserFactory.CloseDriver();
+            user.AtPage<KinopoiskStartPage>().WaitNClickLogoutButton();            
         }
     }
 }

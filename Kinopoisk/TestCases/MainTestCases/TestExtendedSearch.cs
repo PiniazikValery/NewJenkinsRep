@@ -31,8 +31,7 @@ namespace Kinopoisk.TestCases.MainTestCases
         [TearDown]
         public void AfterTest()
         {
-            BrowserFactory.LoadApplication("https://www.kinopoisk.ru/s");
-            BrowserFactory.CloseDriver();
+            BrowserFactory.LoadApplication("https://www.kinopoisk.ru/s");            
         }
     }
 }

@@ -30,8 +30,7 @@ namespace Kinopoisk.TestCases.MainTestCases
         }
         [TearDown]
         public void AfterTest()
-        {
-            BrowserFactory.CloseDriver();
+        {            
         }
     }
 }
