@@ -24,7 +24,7 @@ namespace Kinopoisk.TestCases
             BrowserFactory = new WebDriverFactory(browser, startPage);
         }
 
-        [OneTimeTearDown]
+         [OneTimeTearDown]
         public void AfterAllTests()
         {
             BrowserFactory.CloseDriver();
