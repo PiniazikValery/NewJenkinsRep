@@ -77,7 +77,6 @@
     <Compile Include="TestCases\MainTestCases\LoginTest.cs" />
     <Compile Include="TestCases\MainTestCases\SmokeTest.cs" />
     <Compile Include="TestCases\MainTestCases\TestExtendedSearch.cs" />
-    <Compile Include="TestCases\TestSuites\AllTests.cs" />
     <Compile Include="Users\ITester.cs" />
     <Compile Include="Users\Tester.cs" />
   </ItemGroup>
