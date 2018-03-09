@@ -19,7 +19,7 @@ namespace Kinopoisk.TestCases.MainTestCases
         public void BeforeTest()
         {
             BrowserFactory.InitBrowser(WebBrowsers.Chrome);
-            user = new Tester(BrowserFactory.GetDriver);
+            user = new Tester(BrowserFactory.GetDriver)  ;
             BrowserFactory.LoadApplication("https://www.kinopoisk.ru/s");
         }
         [Test]
