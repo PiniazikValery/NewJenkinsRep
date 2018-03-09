@@ -15,7 +15,7 @@ namespace Kinopoisk.PageObjects.PageObjectRealizations
         {
             PageFactory.InitElements(driver, this);
         }
-        //Search Film Form
+          //Search Film Form
         [FindsBy(How = How.XPath, Using = "//*[@name='m_act[find]' and @id='find_film']")]
         private IWebElement FilmName { get; set; }
 
